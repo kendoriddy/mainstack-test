@@ -48,7 +48,7 @@ const Navbar = () => {
             <div>
               <img src={chat} alt="Chat" />
             </div>
-            <div>
+            <div className={styles.navRightLast}>
               <img src={notifications} alt="Notification" />
             </div>
           </div>
